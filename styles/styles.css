@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* nav styles */
+   nav{
+    justify-content: space-between;
+    display: flex;
+    margin: 24px 160px;
+}
+.nav-title{
+    font-weight: 700px;
+    font-size: 32px;
+}
+.btn-1{
+    font-weight: 600px;
+    font-size: 18px;
+    background-color: white;
+    color: #006A50;
+    border: 1px solid #006A50 ;
+    border-radius: 8px;
+    padding: 15px 30px;
+   margin: 24px 160px 24px 0px;
+}
+/* btn primary */
+.btn-primary{
+    background-color: #006A50;
+    padding: 26px 13px;
+    border-radius: 8px;
+    color: white;
+}
+.banner-btn{
+   font-weight: 600px;
+   font-size: 18px;
+   background-color: #006A50;
+   padding: 17px 34px;
+   margin-top: 24px;
+   border: none;
+   border-radius: 8px;
+   color: #FFFFFF;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    margin: 20px 160px;
+}
+.banner-greethings{
+    color: #0E0E0E;
+    font-weight: 500px;
+    font-size: 24px;
+   
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 56px;
+    margin-top: 16px;
+}
+.banner-pic{
+    padding: 80px 60px 80px 64px;
+}
+.banner-content{
+    padding: 117px 64px 117px 60px;
+}
