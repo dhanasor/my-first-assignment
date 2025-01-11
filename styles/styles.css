@@ -8,6 +8,9 @@
       "wdth" 100;
   }
   
+  body{
+    background-color: #F5F5F5;
+  }
   /* nav styles */
    nav{
     justify-content: space-between;
@@ -21,7 +24,7 @@
 .btn-1{
     font-weight: 600px;
     font-size: 18px;
-    background-color: white;
+ 
     color: #006A50;
     border: 1px solid #006A50 ;
     border-radius: 8px;
@@ -149,4 +152,32 @@ margin-top: 64px;
 }
 .card-btn3:hover{
     background-color: #5490F5;
+}
+/* styles moust */
+.moust-content{
+   background-image: url(../assets/quote-bg.png);
+   background-position: top 25px left 24px;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    margin: 32px 160px 80px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 16px;
+}
+.moust-description{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #0E0E0E;
+    padding-bottom: 12px;
+}
+.moust-head{
+    font-weight: 600px;
+    font-size: 20px;
+    color: #0E0E0E;
+    padding-bottom: 4px;
+}
+.moust-sub-des{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #0E0E0E;
 }
